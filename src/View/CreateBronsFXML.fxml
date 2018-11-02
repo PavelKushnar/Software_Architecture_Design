@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CreateBronsFXMLController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@../resources/zal.png" />
+         </image>
+      </ImageView>
+           <ImageView fx:id="imM71" fitHeight="23.0" fitWidth="26.0" layoutX="81.0" layoutY="25.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM72" fitHeight="23.0" fitWidth="25.0" layoutX="107.0" layoutY="25.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM73" fitHeight="23.0" fitWidth="26.0" layoutX="132.0" layoutY="25.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM74" fitHeight="23.0" fitWidth="25.0" layoutX="158.0" layoutY="25.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM75" fitHeight="23.0" fitWidth="26.0" layoutX="183.0" layoutY="25.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM76" fitHeight="23.0" fitWidth="25.0" layoutX="209.0" layoutY="25.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM77" fitHeight="23.0" fitWidth="26.0" layoutX="234.0" layoutY="25.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM78" fitHeight="23.0" fitWidth="25.0" layoutX="260.0" layoutY="25.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM79" fitHeight="23.0" fitWidth="26.0" layoutX="285.0" layoutY="25.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM710" fitHeight="23.0" fitWidth="25.0" layoutX="311.0" layoutY="25.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM711" fitHeight="23.0" fitWidth="26.0" layoutX="336.0" layoutY="25.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM712" fitHeight="23.0" fitWidth="25.0" layoutX="362.0" layoutY="25.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM713" fitHeight="23.0" fitWidth="26.0" layoutX="387.0" layoutY="25.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM714" fitHeight="23.0" fitWidth="25.0" layoutX="413.0" layoutY="25.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM715" fitHeight="23.0" fitWidth="26.0" layoutX="438.0" layoutY="25.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM716" fitHeight="23.0" fitWidth="25.0" layoutX="464.0" layoutY="25.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM717" fitHeight="23.0" fitWidth="26.0" layoutX="489.0" layoutY="25.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM61" fitHeight="23.0" fitWidth="26.0" layoutX="145.0" layoutY="55.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM62" fitHeight="23.0" fitWidth="25.0" layoutX="171.0" layoutY="55.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM63" fitHeight="23.0" fitWidth="26.0" layoutX="196.0" layoutY="55.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM64" fitHeight="23.0" fitWidth="25.0" layoutX="222.0" layoutY="55.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM65" fitHeight="23.0" fitWidth="26.0" layoutX="247.0" layoutY="55.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM66" fitHeight="23.0" fitWidth="25.0" layoutX="273.0" layoutY="55.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM67" fitHeight="23.0" fitWidth="26.0" layoutX="298.0" layoutY="55.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM68" fitHeight="23.0" fitWidth="25.0" layoutX="324.0" layoutY="55.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM69" fitHeight="23.0" fitWidth="26.0" layoutX="349.0" layoutY="55.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM610" fitHeight="23.0" fitWidth="25.0" layoutX="375.0" layoutY="55.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM611" fitHeight="23.0" fitWidth="26.0" layoutX="400.0" layoutY="55.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM612" fitHeight="23.0" fitWidth="25.0" layoutX="426.0" layoutY="55.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM51" fitHeight="23.0" fitWidth="26.0" layoutX="132.0" layoutY="85.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM52" fitHeight="23.0" fitWidth="25.0" layoutX="158.0" layoutY="85.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM53" fitHeight="23.0" fitWidth="26.0" layoutX="183.0" layoutY="85.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM54" fitHeight="23.0" fitWidth="25.0" layoutX="209.0" layoutY="85.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM55" fitHeight="23.0" fitWidth="26.0" layoutX="234.0" layoutY="85.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM56" fitHeight="23.0" fitWidth="25.0" layoutX="260.0" layoutY="85.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM57" fitHeight="23.0" fitWidth="26.0" layoutX="285.0" layoutY="85.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM58" fitHeight="23.0" fitWidth="25.0" layoutX="311.0" layoutY="85.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM59" fitHeight="23.0" fitWidth="26.0" layoutX="336.0" layoutY="85.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM510" fitHeight="23.0" fitWidth="25.0" layoutX="362.0" layoutY="85.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM511" fitHeight="23.0" fitWidth="26.0" layoutX="387.0" layoutY="85.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM512" fitHeight="23.0" fitWidth="25.0" layoutX="413.0" layoutY="85.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM513" fitHeight="23.0" fitWidth="26.0" layoutX="438.0" layoutY="85.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM41" fitHeight="23.0" fitWidth="26.0" layoutX="145.0" layoutY="113.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM42" fitHeight="23.0" fitWidth="25.0" layoutX="171.0" layoutY="113.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM43" fitHeight="23.0" fitWidth="26.0" layoutX="196.0" layoutY="113.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM44" fitHeight="23.0" fitWidth="25.0" layoutX="222.0" layoutY="113.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM45" fitHeight="23.0" fitWidth="26.0" layoutX="247.0" layoutY="113.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM46" fitHeight="23.0" fitWidth="25.0" layoutX="273.0" layoutY="113.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM47" fitHeight="23.0" fitWidth="26.0" layoutX="298.0" layoutY="113.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM48" fitHeight="23.0" fitWidth="25.0" layoutX="324.0" layoutY="113.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM49" fitHeight="23.0" fitWidth="26.0" layoutX="349.0" layoutY="113.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM410" fitHeight="23.0" fitWidth="25.0" layoutX="375.0" layoutY="113.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM411" fitHeight="23.0" fitWidth="26.0" layoutX="400.0" layoutY="113.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM412" fitHeight="23.0" fitWidth="25.0" layoutX="426.0" layoutY="113.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM31" fitHeight="23.0" fitWidth="26.0" layoutX="132.0" layoutY="146.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM32" fitHeight="23.0" fitWidth="25.0" layoutX="158.0" layoutY="146.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM33" fitHeight="23.0" fitWidth="26.0" layoutX="183.0" layoutY="146.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM34" fitHeight="23.0" fitWidth="25.0" layoutX="209.0" layoutY="146.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM35" fitHeight="23.0" fitWidth="26.0" layoutX="234.0" layoutY="146.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM36" fitHeight="23.0" fitWidth="25.0" layoutX="260.0" layoutY="146.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM37" fitHeight="23.0" fitWidth="26.0" layoutX="285.0" layoutY="146.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM38" fitHeight="23.0" fitWidth="25.0" layoutX="311.0" layoutY="146.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM39" fitHeight="23.0" fitWidth="26.0" layoutX="336.0" layoutY="146.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM310" fitHeight="23.0" fitWidth="25.0" layoutX="362.0" layoutY="146.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM311" fitHeight="23.0" fitWidth="26.0" layoutX="387.0" layoutY="146.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM312" fitHeight="23.0" fitWidth="25.0" layoutX="413.0" layoutY="146.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM313" fitHeight="23.0" fitWidth="26.0" layoutX="438.0" layoutY="146.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM21" fitHeight="23.0" fitWidth="26.0" layoutX="134.0" layoutY="195.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM22" fitHeight="23.0" fitWidth="25.0" layoutX="160.0" layoutY="195.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM23" fitHeight="23.0" fitWidth="26.0" layoutX="185.0" layoutY="195.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM24" fitHeight="23.0" fitWidth="25.0" layoutX="211.0" layoutY="195.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM25" fitHeight="23.0" fitWidth="26.0" layoutX="236.0" layoutY="195.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM26" fitHeight="23.0" fitWidth="25.0" layoutX="262.0" layoutY="195.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM27" fitHeight="23.0" fitWidth="26.0" layoutX="287.0" layoutY="195.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM28" fitHeight="23.0" fitWidth="25.0" layoutX="313.0" layoutY="195.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM29" fitHeight="23.0" fitWidth="26.0" layoutX="338.0" layoutY="195.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM210" fitHeight="23.0" fitWidth="25.0" layoutX="364.0" layoutY="195.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM211" fitHeight="23.0" fitWidth="26.0" layoutX="389.0" layoutY="195.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM212" fitHeight="23.0" fitWidth="25.0" layoutX="415.0" layoutY="195.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM213" fitHeight="23.0" fitWidth="26.0" layoutX="440.0" layoutY="195.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM11" fitHeight="23.0" fitWidth="26.0" layoutX="134.0" layoutY="227.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM12" fitHeight="23.0" fitWidth="25.0" layoutX="160.0" layoutY="227.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM13" fitHeight="23.0" fitWidth="26.0" layoutX="185.0" layoutY="227.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM14" fitHeight="23.0" fitWidth="25.0" layoutX="211.0" layoutY="227.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM15" fitHeight="23.0" fitWidth="26.0" layoutX="236.0" layoutY="227.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM16" fitHeight="23.0" fitWidth="25.0" layoutX="262.0" layoutY="227.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM17" fitHeight="23.0" fitWidth="26.0" layoutX="287.0" layoutY="227.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM18" fitHeight="23.0" fitWidth="25.0" layoutX="313.0" layoutY="227.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM19" fitHeight="23.0" fitWidth="26.0" layoutX="338.0" layoutY="227.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM110" fitHeight="23.0" fitWidth="25.0" layoutX="364.0" layoutY="227.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM111" fitHeight="23.0" fitWidth="26.0" layoutX="389.0" layoutY="227.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM112" fitHeight="23.0" fitWidth="25.0" layoutX="415.0" layoutY="227.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="imM113" fitHeight="23.0" fitWidth="26.0" layoutX="440.0" layoutY="227.0" onMouseClicked="#onClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/mestonull.png" />
+         </image>
+      </ImageView>
+
+
+      <Button fx:id="btnBron" layoutX="515.0" layoutY="370.0" mnemonicParsing="false" onAction="#onClickBuyButton" text="CreateBrons" />
+      <Label fx:id="lblAnswer" layoutX="405.0" layoutY="360.0" prefHeight="17.0" prefWidth="143.0" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="lblAnswer1" layoutX="318.0" layoutY="378.0" prefHeight="17.0" prefWidth="36.0" text="Cost:" textFill="#fffdfd">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblCost" layoutX="359.0" layoutY="378.0" prefHeight="17.0" prefWidth="36.0" text="0" textFill="#fffdfd">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

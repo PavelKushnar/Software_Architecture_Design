@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="385.0" prefWidth="768.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.BronFXMLController">
+   <children>
+      <ImageView fitHeight="385.0" fitWidth="768.0">
+         <image>
+            <Image url="@../resources/biletwork.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="txtName" layoutX="341.0" layoutY="157.0" prefHeight="54.0" prefWidth="238.0" text="OBliviob" textOverrun="CLIP">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="txtDate" layoutX="341.0" layoutY="265.0" prefHeight="37.0" prefWidth="113.0" text="15.04.2013" textOverrun="CLIP">
+         <font>
+            <Font name="Gungsuh" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="txtTime" layoutX="530.0" layoutY="265.0" prefHeight="37.0" prefWidth="71.0" text="21:30" textOverrun="CLIP">
+         <font>
+            <Font name="Gungsuh" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="txtRyad" layoutX="397.0" layoutY="122.0" prefHeight="19.0" prefWidth="45.0" text="5" textOverrun="CLIP">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="txtNum" layoutX="491.0" layoutY="121.0" prefHeight="37.0" prefWidth="45.0" text="5" textOverrun="CLIP">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="txtCost" layoutX="111.0" layoutY="312.0" prefHeight="37.0" prefWidth="71.0" text="300" textOverrun="CLIP">
+         <font>
+            <Font name="Gungsuh" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

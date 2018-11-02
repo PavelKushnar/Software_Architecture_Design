@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="614.0" prefWidth="942.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SpectacleFXMLController">
+   <children>
+      <ImageView fx:id="imgSpectacle" disable="true" fitHeight="614.0" fitWidth="942.0" pickOnBounds="true">
+         <image>
+            <Image url="@../resources/108.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblAnswer" layoutX="653.0" layoutY="551.0" prefHeight="17.0" prefWidth="275.0" />
+      <Button fx:id="btnCreate" layoutX="815.0" layoutY="575.0" mnemonicParsing="false" onAction="#onClickCreateButton" text="Create" />
+      <Button fx:id="btnCancel" layoutX="876.0" layoutY="575.0" mnemonicParsing="false" onAction="#onClickCancelButton" text="Cancel" />
+      <Label layoutX="16.0" layoutY="476.0" text="Description:" visible="false" />
+      <TextArea fx:id="txtDescription" editable="false" layoutX="16.0" layoutY="503.0" prefHeight="97.0" prefWidth="311.0" visible="false" wrapText="true" />
+      <GridPane layoutX="408.0" layoutY="28.0" prefHeight="464.0" prefWidth="530.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="96.0" minWidth="10.0" prefWidth="75.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="307.0" minWidth="10.0" prefWidth="262.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="159.0" minWidth="10.0" prefWidth="62.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="154.0" minWidth="10.0" prefWidth="142.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="42.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="63.0" minHeight="10.0" prefHeight="54.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Country:" textAlignment="CENTER" visible="false" GridPane.rowIndex="2" />
+            <Label text="Name:" />
+            <TextField fx:id="txtName" onAction="#onNamechange" onKeyPressed="#onNamechange2" onMouseClicked="#onNamechange3" prefHeight="25.0" prefWidth="84.0" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></TextField>
+            <Text disable="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Name origin:" textAlignment="CENTER" visible="false" GridPane.rowIndex="1" />
+            <Label fx:id="txtCountry" text="Russia" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Text fx:id="txtnamerus" disable="true" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Text>
+            <Label text="Year:" visible="false" GridPane.rowIndex="3" />
+            <Label fx:id="txtYear" text="0000" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Companies:" visible="false" GridPane.rowIndex="5" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Popularity:" visible="false" GridPane.rowIndex="6" />
+            <Text fx:id="txtScreenwriter" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Budget:" visible="false" GridPane.rowIndex="7" />
+            <Text fx:id="txtDirector" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Revenue:" visible="false" GridPane.rowIndex="8" />
+            <Text fx:id="txtProducer" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Label text="Info:" textAlignment="CENTER" GridPane.columnIndex="2" />
+            <Label text="Time:" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label text="Cost:" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lang:" visible="false" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Genre:" visible="false" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Slogan:" visible="false" GridPane.rowIndex="4" />
+            <TextArea fx:id="txtInfo" prefHeight="38.0" prefWidth="149.0" promptText="This comment will be visible to  service companies" GridPane.columnIndex="3" />
+            <TextField fx:id="txtTime" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Text fx:id="txtOperator" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <TextField fx:id="txtCost" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Text fx:id="txtDesigin" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Text fx:id="txtGenre" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Text fx:id="txtComposer" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextArea fx:id="txtActors" editable="false" prefHeight="38.0" prefWidth="209.0" visible="false" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label text="Rating:" visible="false" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Label fx:id="txtRaiting" text="8.7" visible="false" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+         </children>
+      </GridPane>
+      <Button fx:id="btnWantPay" layoutX="735.0" layoutY="575.0" mnemonicParsing="false" onAction="#onClickWantPayButton" text="Want Buy" />
+      <Button fx:id="btnAccesPay" layoutX="653.0" layoutY="575.0" mnemonicParsing="false" onAction="#onClickAccesPayButton" text="Acces Pay" />
+      <Button fx:id="btnToCashierPay" layoutX="551.0" layoutY="575.0" mnemonicParsing="false" onAction="#onClickCashierPayButton" text="ToCashier Pay" />
+      <Button fx:id="btnPay" layoutX="502.0" layoutY="575.0" mnemonicParsing="false" onAction="#onClickPayButton" text="Pay" />
+      <Text layoutX="340.0" layoutY="592.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status:" />
+      <Text fx:id="txtStatusSpectacle" layoutX="385.0" layoutY="592.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <DatePicker fx:id="dpDateSeans" layoutX="423.0" layoutY="503.0" promptText="Date Seans" />
+      <Text fx:id="txtHourt" layoutX="612.0" layoutY="520.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hour:" />
+      <Text fx:id="txtMinutest" layoutX="712.0" layoutY="520.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minutes:" />
+      <TextField fx:id="txtMinutes" layoutX="768.0" layoutY="503.0" prefHeight="25.0" prefWidth="45.0" />
+      <TextField fx:id="txtHour" layoutX="653.0" layoutY="503.0" prefHeight="25.0" prefWidth="45.0" />
+      <Button fx:id="btnCreateSeans" layoutX="831.0" layoutY="503.0" mnemonicParsing="false" onAction="#onClickCreateSeansButton" prefHeight="25.0" prefWidth="90.0" text="Create Seans" />
+      <Label fx:id="txtDate" layoutX="375.0" layoutY="465.0" text="Date:" visible="false" />
+   </children>
+</AnchorPane>
